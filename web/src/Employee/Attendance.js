@@ -259,7 +259,7 @@ const generatePDF = () => {
 
     const reportData = prepareDataForReport(filteredData);
     exportToPDF(columnsToExport, reportData, {
-      title: "Attendance Report",
+      title: " Daily  Report",
     });
   };
 
